@@ -6,7 +6,7 @@ class Animal {
     console.log(`sound...`);
   }
   eat() {
-    console.log(`Food`);
+    console.log(`this.name eats`);
   }
 }
 class Dog extends Animal {
@@ -15,7 +15,7 @@ class Dog extends Animal {
     this.name = "Rax";
   }
   sounds() {
-    console.log(`Barks`);
+    console.log(`Dog barks`);
   }
 }
 class Cat extends Animal {
@@ -24,7 +24,7 @@ class Cat extends Animal {
     this.name = "Stormy";
   }
   sounds() {
-    console.log(`Meows`);
+    console.log(`Cat meows`);
   }
 }
 class Home {
