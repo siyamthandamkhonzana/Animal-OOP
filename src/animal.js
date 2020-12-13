@@ -3,10 +3,10 @@ class Animal {
     this.name = name;
   }
   sound() {
-    console.log(`sound...`);
+    return `sound...`;
   }
   eat() {
-    console.log(`Food`);
+    return `Food`;
   }
 }
 class Dog extends Animal {
@@ -14,8 +14,8 @@ class Dog extends Animal {
     super(name);
     this.name = "Rax";
   }
-  sounds() {
-    console.log(`Barks`);
+  sound() {
+    return `Barks`;
   }
 }
 class Cat extends Animal {
@@ -23,8 +23,8 @@ class Cat extends Animal {
     super(name);
     this.name = "Stormy";
   }
-  sounds() {
-    console.log(`Meows`);
+  sound() {
+    return `Meow`;
   }
 }
 class Home {
@@ -41,4 +41,4 @@ class Home {
   }
 }
 
-
+module.exports = { Dog, Cat, Animal, Home };
