@@ -6,7 +6,7 @@ class Animal {
     console.log(`sound...`);
   }
   eat() {
-    console.log(`this.name eats`);
+    console.log(`${this.name} eats`);
   }
 }
 class Dog extends Animal {
