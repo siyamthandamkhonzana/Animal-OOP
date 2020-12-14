@@ -28,17 +28,15 @@ class Cat extends Animal {
   }
 }
 class Home {
-  constructor() {
-    this.adoptedPets = [];
+  constructor(){
+ this.adoptedPets = [];
   }
   adoptPet(animal) {
     this.adoptedPets.push(animal);
   }
   makeAllSounds() {
-    for (var i = 1; i < this.adoptedPets.length; i++) {
-    console.log(this.adoptedPets[i].sounds());
+    for (var i = 0; i < this.adoptedPets.length; i++) {
+    this.adoptedPets[i].sounds();
     }
   }
 }
-
-
