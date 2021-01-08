@@ -1,7 +1,6 @@
-const { Dog, Cat, Animal, Home } = require("../src/animal");
+const { Dog, Cat } = require("../src/animal");
 var dog = new Dog();
 var cat = new Cat();
-var home = new Home();
 
 describe("Functionality of the Dog class ", () => {
   it("Does dog eat Food ", () => {
