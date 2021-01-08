@@ -1,0 +1,15 @@
+{
+  "name": "my_jasmine_goodies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Jam_buddy.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jasmine": "^3.6.3",
+    "jsdom": "^16.4.0"
+  }
+}
